@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Historical Places In India</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		
+	body{
+			font-family: sans-serif;
+			line-height: 1.6;
+			background-color: #f2f2f2;
+			display: grid;
+			grid-template-rows: auto 1fr auto;
+			min-height: 100vh;
+			background-size: cover;
+            background-image:url(https://images.pexels.com/photos/3699921/pexels-photo-3699921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+            background-size: cover;
+            background-attachment:scroll;
+            text-align: center;
+
+		}
+
+	h3  {
+                  position:static;
+                  color:black;            
+                  background-image: linear-gradient(120deg,rgb(235, 231, 228),rgb(235, 222, 222),rgb(215, 215, 231));
+                  width: 250px;  
+                  height: 40px;
+                  text-align: center;
+                  border-radius: 120px;
+				  text-align: center;
+		 }
+		
+	header{
+			  
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			grid-row: 1 / 2;
+			z-index: 1;
+			position: fixed;
+			color:black;
+            background-image: linear-gradient(90deg,#d87528,#efd2db,#7adc7a);
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+            text-shadow: 10px 10px 10px #000000;
+            box-shadow: 70px 10px 50px black;
+            font-family:'Times New Roman', Times, serif; 
+            font-size: 20px;
+            font-weight: 600;
+            color: #080809;
+            text-shadow: 0px 0px 5px #645493, 0px 0px 10px #7f6aa0, 0px 0px 10px #e183d0,0px 0px 20px #453ed3;
+		}
+
+	footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			grid-row: 1 / 2;
+			grid-row: 3 / 4;
+			z-index: 1;
+			position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            height: 60px;			
+
+		}
+		
+		
+	main {
+			display: grid;
+			grid-auto-rows: 1fr;
+			grid-gap: 20px;
+			padding: 20px;
+			grid-row: 2 / 3;
+			grid-template-columns: repeat(1, 1fr);
+		}
+		
+	img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+			border-radius: 10px;
+			box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+		}
+		
+	h2  {
+			margin-bottom: 10px;
+			font-size: 1.2rem;
+			font-weight: bold;
+			text-align: center;
+		}
+		
+		
+	p   {
+			font-size: 1rem;
+			text-align: justify;
+			padding: 10px;
+			line-height: 1.6;
+		}
+		
+		
+		@media (max-width: 767px) {
+			main {
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<h1><b><u>Historical Places In India</u></b></h1>
+	</header>
+	
+	<main>
+
+		<div>
+			<br><br><br><br>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg/375px-Taj_Mahal%2C_Agra%2C_India_edit3.jpg" style="border:5px solid #000000; padding:3px; margin:5px" alt="Taj Mahal">
+        <p>The Taj Mahal is an Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahanto house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.Construction of the mausoleum was essentially completed in 1643.</p>
+        <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">
+          <h4>see more...</h4>
+        </a>
+        <br>
+        <center><h3>Taj Mahal</h3></center>
+		</div>
+
+
+		<div>
+			<br><br><br><br>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/330px-Delhi_fort.jpg" style="border:5px solid #000000; padding:3px; margin:5px" alt="Red Fort">
+          <p>The Red Fort or Lal Qila is a historic fort in the Old Delhi neighbourhood of Delhi, India, that historically served as the main residence of the Mughal emperors. Emperor Shah Jahan commissioned construction of the Red Fort on 12 May 1638, when he decided to shift his capital from Agra to Delhi. Originally red and white, its design is credited to architect Ustad Ahmad Lahori, who also constructed the Taj Mahal. The fort represents the peak in Mughal architecture under Shah Jahan and combines Persianate palace architecture with Indian traditions.</p>
+          <a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank">
+            <h4>see more...</h4>
+        </a>
+        <br>
+        <center><h3>Red Fort</h3></center>
+      </div>
+
+			<div>
+				<br>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/375px-Mysore_Palace_Morning.jpg" style="border:5px solid #000000; padding:3px; margin:5px" alt="Hawa Mahal">
+				<p>The Hawa Mahal is a palace in the city of Jaipur, India. Built from red and pink sandstone, it is on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers.The structure was built in 1799 by the Maharaja Sawai Pratap Singh, grandson of Maharaja Sawai Jai Singh, the founder of the city of Jaipur, India.[1] He was so inspired by the unique structure of Khetri Mahal that he built this grand and historical palace.It was designed by Lal Chand Ustad. </p>
+				<a href="https://en.wikipedia.org/wiki/Hawa_Mahal" target="_blank">
+				  <h4>see more...</h4>
+			  </a>
+				<br>
+				<center><h3>Hawa Mahal</h3></center>
+			  </div>
+
+			<div>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Hawa_Mahal_east_facade_%2814-07-2022%29.jpg/375px-Hawa_Mahal_east_facade_%2814-07-2022%29.jpg" style="border:5px solid #000000; padding:3px; margin:5px"alt="Mysore Palace">
+				<p>Mysore Palace, also known as Amba Vilas Palace, is a historical palace and a royal residence (house). It is located in Mysore, Karnataka. It used to be the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore. The palace is in the centre of Mysore, and faces the Chamundi Hills eastward. Mysore is commonly described as the 'City of Palaces', and there are seven palaces including this one. However, the Mysore Palace refers specifically to the one within the new fort.</p>
+				<a href="https://en.wikipedia.org/wiki/Mysore_Palace" target="_blank">
+				  <h4>see more...</h4>
+				</a><br>
+				<center><h3>Mysore Palace</h3></center>
+			  </div>
+
+			<div>
+				<br><br>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmORevmK0eIOB0YT-iXbRhIh_QjEKvg44h4g&usqp=CAU" style="border:5px solid #000000; padding:3px; margin:5px" alt="Ajanta Caves">
+				<p>The Ajanta Caves are approximately thirty rock-cut Buddhist cave monuments dating from the second century BCE to about 480 CE in the Aurangabad District of Maharashtra state in India.[1][note 1] The caves include paintings and rock-cut sculptures described as among the finest surviving examples of ancient Indian art, particularly expressive paintings that present emotions through gesture, pose and form.They are universally regarded as masterpieces of Buddhist religious art.</p>
+				<a href="https://en.wikipedia.org/wiki/Ajanta_Caves" target="_blank">
+				  <h4>see more...</h4>
+				</a><br>
+				<center><h3>Ajanta Caves</h3></center>
+			  </div>
+
+			<div>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Khajuraho_Group_of_Monuments_4.jpg/330px-Khajuraho_Group_of_Monuments_4.jpg" style="border:5px solid #000000; padding:3px; margin:5px" alt="Khajuraho Group of Monuments">
+				<p>The Khajuraho Group of Monuments are a group of Hindu and Jain temples in Chhatarpur district, Madhya Pradesh, India. They are about 175 kilometers southeast of Jhansi, 10km from Azad Nagar Khajwa, 9km from Rajnagar and 49 km from district headquarter Chhatarpur. They are a UNESCO World Heritage Site.The temples are famous for their nagara-style architectural symbolism and a few erotic sculptures.Most Khajuraho temples were built between 885 CE and 1000 CE by the Chandela dynasty.</p>
+				<a href="https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments" target="_blank">
+				  <h4>see more...</h4>
+				</a>
+				<br>
+				<center><h3>Khajuraho</h3></center>
+			  </div>
+		   <h4 style="font-size: 30px;font-style: italic;">Thank you for visiting my page !</h4>
+			</main>
+			
+			<footer>
+				<p>Designed and Developed By Deepika Balusu</p>
+			</footer>
+
+			</body>
+			</html>
+			
+			
+			
+			
+			
